@@ -1,0 +1,31 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  box-shadow: 2px 2px 2px 1px red;
+  height: 10vh;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 4%;
+}
+
+.logo-name {
+  width: 170px;
+  margin-left: 4%;
+}
+
+.search-nav {
+  width: 100px;
+}
+
+.btn-search button{
+  width: 48px;
+}

@@ -1,0 +1,77 @@
+.from-card-container {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.form-card-btn {
+  margin: 5%;
+}
+
+button{
+  background-color: #a93226;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ddd;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  padding: 15px;
+  background-color: #5a1c17;
+  font-size: 20px;
+}
+
+.form-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ddd;
+}
+
+h2 {
+  margin-right: 10px;
+}
+
+.form-card-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.form-card-table {
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: #a93226;
+}
+
+.form-card-table thead {
+  height: 55px;
+  font-size: 16px;
+  color: #e9e9e9;
+  font-weight: 700;
+}
+
+.form-card-table tbody {
+  font-size: 14px;
+  font-weight: 400;
+  color: #cfcfcf;
+  text-align: center;
+}
+
+.form-card-table tbody tr {
+    height: 50px;
+  }
+
+.u {
+    height: 60px;
+}
